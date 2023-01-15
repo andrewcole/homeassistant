@@ -4,7 +4,7 @@ automation: !include_dir_list automations
 default_config:
 group: !include_dir_named groups
 homeassistant:
-  country: US
+  country: AU
   currency: AUD
   elevation: !secret homeassistant_elevation
   external_url: https://homeassistant.illallangi.enterprises
