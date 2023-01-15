@@ -13,7 +13,7 @@ yq w -i "${secrets}" --prettyPrint homeassistant_longitude -- ${HOMEASSISTANT_LO
 yq w -i "${secrets}" --prettyPrint homeassistant_timezone  -- ${TZ}
 
 echo Configuring recorder
-yq w -i "${secrets}" --prettyPrint recorder_db_url -- mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@3306:${MYSQL_PORT}/${MYSQL_DATABASE}?charset=utf8mb4
+yq w -i "${secrets}" --prettyPrint recorder_db_url -- mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@${MYSQL_HOST}:3306/${MYSQL_DATABASE}?charset=utf8mb4
 
 echo Configuring InfluxDB
 yq w -i "${secrets}" --prettyPrint influxdb_host     -- ${INFLUXDB_HOST}
