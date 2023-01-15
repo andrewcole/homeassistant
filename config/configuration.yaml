@@ -4,11 +4,14 @@ automation: !include_dir_list automations
 default_config:
 group: !include_dir_named groups
 homeassistant:
+  country: US
   currency: AUD
   elevation: !secret homeassistant_elevation
+  external_url: https://homeassistant.illallangi.enterprises
+  internal_url: https://homeassistant.illallangi.enterprises
   latitude: !secret homeassistant_latitude
   longitude: !secret homeassistant_longitude
-  name: Moonya
+  name: Moonya Road
   time_zone: !secret homeassistant_timezone
   unit_system: metric
 http:
