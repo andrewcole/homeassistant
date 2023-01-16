@@ -1,49 +1,48 @@
 ---
 entities:
 - entity: binary_sensor.kitchen_dht_status
-  name: kitchen-dht
+  name: dht
 - entity: binary_sensor.kitchen_dishwasher_status
-  name: kitchen-dishwasher
+  name: dishwasher
 - entity: binary_sensor.kitchen_downlight_01_status
-  name: kitchen-downlight-01
+  name: downlight-01
 - entity: binary_sensor.kitchen_downlight_02_status
-  name: kitchen-downlight-02
+  name: downlight-02
 - entity: binary_sensor.kitchen_downlight_03_status
-  name: kitchen-downlight-03
+  name: downlight-03
 - entity: binary_sensor.kitchen_downlight_04_status
-  name: kitchen-downlight-04
+  name: downlight-04
 - entity: binary_sensor.kitchen_downlight_05_status
-  name: kitchen-downlight-05
+  name: downlight-05
 - entity: binary_sensor.kitchen_downlight_06_status
-  name: kitchen-downlight-06
+  name: downlight-06
 - entity: binary_sensor.kitchen_downlight_07_status
-  name: kitchen-downlight-07
+  name: downlight-07
 - entity: binary_sensor.kitchen_downlight_08_status
-  name: kitchen-downlight-08
+  name: downlight-08
 - entity: binary_sensor.kitchen_downlight_09_status
-  name: kitchen-downlight-09
+  name: downlight-09
 - entity: binary_sensor.kitchen_downlight_10_status
-  name: kitchen-downlight-10
+  name: downlight-10
 - entity: binary_sensor.kitchen_downlight_11_status
-  name: kitchen-downlight-11
+  name: downlight-11
 - entity: binary_sensor.kitchen_downlight_12_status
-  name: kitchen-downlight-12
+  name: downlight-12
 - entity: binary_sensor.kitchen_fridge_status
-  name: kitchen-fridge
+  name: fridge
 - entity: binary_sensor.kitchen_hvac_status
-  name: kitchen-hvac
+  name: hvac
 - entity: binary_sensor.kitchen_nightlight_3_status
-  name: kitchen-nightlight-3
+  name: nightlight-3
 - entity: binary_sensor.kitchen_nightlight_4_status
-  name: kitchen-nightlight-4
+  name: nightlight-4
 - entity: binary_sensor.kitchen_shelly_1_status
-  name: kitchen-shelly-1
+  name: shelly-1
 - entity: binary_sensor.kitchen_shelly_2_status
-  name: kitchen-shelly-2
+  name: shelly-2
 - entity: binary_sensor.kitchen_shelly_3_status
-  name: kitchen-shelly-3
+  name: shelly-3
 - entity: binary_sensor.kitchen_vr_lighthouses_status
-  name: kitchen-vr-lighthouses
-show_header_toggle: false
+  name: vr-lighthouses
 title: Kitchen
-type: entities
+type: history-graph

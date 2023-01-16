@@ -1,7 +1,6 @@
 ---
 entities:
 - entity: binary_sensor.entrance_shelly_status
-  name: entrance-shelly
-show_header_toggle: false
+  name: shelly
 title: Entrance
-type: entities
+type: history-graph

@@ -1,24 +1,24 @@
 ---
 entities:
 - entity: binary_sensor.office_downlight_1_status
-  name: office-downlight-1
+  name: downlight-1
 - entity: binary_sensor.office_downlight_2_status
-  name: office-downlight-2
+  name: downlight-2
 - entity: binary_sensor.office_downlight_3_status
-  name: office-downlight-3
+  name: downlight-3
 - entity: binary_sensor.office_downlight_4_status
-  name: office-downlight-4
+  name: downlight-4
 - entity: binary_sensor.office_hvac_status
-  name: office-hvac
+  name: hvac
 - entity: binary_sensor.office_rack_status
-  name: office-rack
+  name: rack
 - entity: binary_sensor.office_shelly_1_status
-  name: office-shelly-1
+  name: shelly-1
 - entity: binary_sensor.office_shelly_2_status
-  name: office-shelly-2
+  name: shelly-2
 - entity: binary_sensor.office_tablelight_1_status
-  name: office-tablelight-1
+  name: tablelight-1
 - entity: binary_sensor.office_tablelight_2_status
-  name: office-tablelight-2
+  name: tablelight-2
 title: Office
 type: history-graph

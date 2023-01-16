@@ -1,9 +1,8 @@
 ---
 entities:
 - entity: binary_sensor.ensuite_shelly_1_status
-  name: ensuite-shelly-1
+  name: shelly-1
 - entity: binary_sensor.ensuite_shelly_2_status
-  name: ensuite-shelly-2
-show_header_toggle: false
+  name: shelly-2
 title: Ensuite
-type: entities
+type: history-graph

@@ -1,21 +1,20 @@
 ---
 entities:
 - entity: binary_sensor.bedroom_blanket_left_status
-  name: bedroom-blanket-left
+  name: blanket-left
 - entity: binary_sensor.bedroom_blanket_right_status
-  name: bedroom-blanket-right
+  name: blanket-right
 - entity: binary_sensor.bedroom_dht_status
-  name: bedroom-dht
+  name: dht
 - entity: binary_sensor.bedroom_hvac_status
-  name: bedroom-hvac
+  name: hvac
 - entity: binary_sensor.bedroom_shelly_1_status
-  name: bedroom-shelly-1
+  name: shelly-1
 - entity: binary_sensor.bedroom_shelly_2_status
-  name: bedroom-shelly-2
+  name: shelly-2
 - entity: binary_sensor.bedroom_tablelight_1_status
-  name: bedroom-tablelight-1
+  name: tablelight-1
 - entity: binary_sensor.bedroom_tablelight_2_status
-  name: bedroom-tablelight-2
-show_header_toggle: false
+  name: tablelight-2
 title: Bedroom
-type: entities
+type: history-graph

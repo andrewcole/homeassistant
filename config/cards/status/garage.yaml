@@ -1,15 +1,14 @@
 ---
 entities:
 - entity: binary_sensor.garage_dht_status
-  name: garage-dht
+  name: dht
 - entity: binary_sensor.garage_network_rack_status
-  name: garage-network-rack
+  name: network-rack
 - entity: binary_sensor.garage_server_rack_status
-  name: garage-server-rack
+  name: server-rack
 - entity: binary_sensor.garage_shelly_1_status
-  name: garage-shelly-1
+  name: shelly-1
 - entity: binary_sensor.garage_shelly_2_status
-  name: garage-shelly-2
-show_header_toggle: false
+  name: shelly-2
 title: Garage
-type: entities
+type: history-graph
