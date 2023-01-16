@@ -4,37 +4,37 @@ entities:
   name: kitchen-dht
 - entity: binary_sensor.kitchen_dishwasher_status
   name: kitchen-dishwasher
-- entity: binary_sensor.kitchen_downlight-01_status
+- entity: binary_sensor.kitchen_downlight_01_status
   name: kitchen-downlight-01
-- entity: binary_sensor.kitchen_downlight-02_status
+- entity: binary_sensor.kitchen_downlight_02_status
   name: kitchen-downlight-02
-- entity: binary_sensor.kitchen_downlight-03_status
+- entity: binary_sensor.kitchen_downlight_03_status
   name: kitchen-downlight-03
-- entity: binary_sensor.kitchen_downlight-04_status
+- entity: binary_sensor.kitchen_downlight_04_status
   name: kitchen-downlight-04
-- entity: binary_sensor.kitchen_downlight-05_status
+- entity: binary_sensor.kitchen_downlight_05_status
   name: kitchen-downlight-05
-- entity: binary_sensor.kitchen_downlight-06_status
+- entity: binary_sensor.kitchen_downlight_06_status
   name: kitchen-downlight-06
-- entity: binary_sensor.kitchen_downlight-07_status
+- entity: binary_sensor.kitchen_downlight_07_status
   name: kitchen-downlight-07
-- entity: binary_sensor.kitchen_downlight-08_status
+- entity: binary_sensor.kitchen_downlight_08_status
   name: kitchen-downlight-08
-- entity: binary_sensor.kitchen_downlight-09_status
+- entity: binary_sensor.kitchen_downlight_09_status
   name: kitchen-downlight-09
-- entity: binary_sensor.kitchen_downlight-10_status
+- entity: binary_sensor.kitchen_downlight_10_status
   name: kitchen-downlight-10
-- entity: binary_sensor.kitchen_downlight-11_status
+- entity: binary_sensor.kitchen_downlight_11_status
   name: kitchen-downlight-11
-- entity: binary_sensor.kitchen_downlight-12_status
+- entity: binary_sensor.kitchen_downlight_12_status
   name: kitchen-downlight-12
 - entity: binary_sensor.kitchen_fridge_status
   name: kitchen-fridge
 - entity: binary_sensor.kitchen_hvac_status
   name: kitchen-hvac
-- entity: binary_sensor.kitchen_nightlight-3_status
+- entity: binary_sensor.kitchen_nightlight_3_status
   name: kitchen-nightlight-3
-- entity: binary_sensor.kitchen_nightlight-4_status
+- entity: binary_sensor.kitchen_nightlight_4_status
   name: kitchen-nightlight-4
 - entity: binary_sensor.kitchen_shelly_1_status
   name: kitchen-shelly-1
@@ -42,7 +42,7 @@ entities:
   name: kitchen-shelly-2
 - entity: binary_sensor.kitchen_shelly_3_status
   name: kitchen-shelly-3
-- entity: binary_sensor.kitchen_vr-lighthouses_status
+- entity: binary_sensor.kitchen_vr_lighthouses_status
   name: kitchen-vr-lighthouses
 show_header_toggle: false
 title: Kitchen

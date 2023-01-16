@@ -1,12 +1,12 @@
 ---
 entities:
-- entity: binary_sensor.office_downlight-1_status
+- entity: binary_sensor.office_downlight_1_status
   name: office-downlight-1
-- entity: binary_sensor.office_downlight-2_status
+- entity: binary_sensor.office_downlight_2_status
   name: office-downlight-2
-- entity: binary_sensor.office_downlight-3_status
+- entity: binary_sensor.office_downlight_3_status
   name: office-downlight-3
-- entity: binary_sensor.office_downlight-4_status
+- entity: binary_sensor.office_downlight_4_status
   name: office-downlight-4
 - entity: binary_sensor.office_hvac_status
   name: office-hvac
@@ -16,9 +16,9 @@ entities:
   name: office-shelly-1
 - entity: binary_sensor.office_shelly_2_status
   name: office-shelly-2
-- entity: binary_sensor.office_tablelight-1_status
+- entity: binary_sensor.office_tablelight_1_status
   name: office-tablelight-1
-- entity: binary_sensor.office_tablelight-2_status
+- entity: binary_sensor.office_tablelight_2_status
   name: office-tablelight-2
 show_header_toggle: false
 title: Office

@@ -1,8 +1,8 @@
 ---
 entities:
-- entity: binary_sensor.bedroom_blanket-left_status
+- entity: binary_sensor.bedroom_blanket_left_status
   name: bedroom-blanket-left
-- entity: binary_sensor.bedroom_blanket-right_status
+- entity: binary_sensor.bedroom_blanket_right_status
   name: bedroom-blanket-right
 - entity: binary_sensor.bedroom_dht_status
   name: bedroom-dht
@@ -12,9 +12,9 @@ entities:
   name: bedroom-shelly-1
 - entity: binary_sensor.bedroom_shelly_2_status
   name: bedroom-shelly-2
-- entity: binary_sensor.bedroom_tablelight-1_status
+- entity: binary_sensor.bedroom_tablelight_1_status
   name: bedroom-tablelight-1
-- entity: binary_sensor.bedroom_tablelight-2_status
+- entity: binary_sensor.bedroom_tablelight_2_status
   name: bedroom-tablelight-2
 show_header_toggle: false
 title: Bedroom

@@ -2,9 +2,9 @@
 entities:
 - entity: binary_sensor.garage_dht_status
   name: garage-dht
-- entity: binary_sensor.garage_network-rack_status
+- entity: binary_sensor.garage_network_rack_status
   name: garage-network-rack
-- entity: binary_sensor.garage_server-rack_status
+- entity: binary_sensor.garage_server_rack_status
   name: garage-server-rack
 - entity: binary_sensor.garage_shelly_1_status
   name: garage-shelly-1
