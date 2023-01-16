@@ -1,0 +1,15 @@
+---
+entities:
+- entity: binary_sensor.laundry_dht_status
+  name: laundry-dht
+- entity: binary_sensor.laundry_dryer_status
+  name: laundry-dryer
+- entity: binary_sensor.laundry_shelly_1_status
+  name: laundry-shelly-1
+- entity: binary_sensor.laundry_shelly_2_status
+  name: laundry-shelly-2
+- entity: binary_sensor.laundry_washer_status
+  name: laundry-washer
+show_header_toggle: false
+title: Laundry
+type: entities

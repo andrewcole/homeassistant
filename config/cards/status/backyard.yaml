@@ -1,0 +1,9 @@
+---
+entities:
+- entity: binary_sensor.backyard_dht_status
+  name: backyard-dht
+- entity: binary_sensor.backyard_dht_status
+  name: backyard-dht
+show_header_toggle: false
+title: Backyard
+type: entities

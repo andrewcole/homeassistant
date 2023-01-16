@@ -1,7 +1,49 @@
 ---
 entities:
-- entity: binary_sensor.backyard_dht_status
-  name: backyard-dht
+- entity: binary_sensor.kitchen_dht_status
+  name: kitchen-dht
+- entity: binary_sensor.kitchen_dishwasher_status
+  name: kitchen-dishwasher
+- entity: binary_sensor.kitchen_downlight-01_status
+  name: kitchen-downlight-01
+- entity: binary_sensor.kitchen_downlight-02_status
+  name: kitchen-downlight-02
+- entity: binary_sensor.kitchen_downlight-03_status
+  name: kitchen-downlight-03
+- entity: binary_sensor.kitchen_downlight-04_status
+  name: kitchen-downlight-04
+- entity: binary_sensor.kitchen_downlight-05_status
+  name: kitchen-downlight-05
+- entity: binary_sensor.kitchen_downlight-06_status
+  name: kitchen-downlight-06
+- entity: binary_sensor.kitchen_downlight-07_status
+  name: kitchen-downlight-07
+- entity: binary_sensor.kitchen_downlight-08_status
+  name: kitchen-downlight-08
+- entity: binary_sensor.kitchen_downlight-09_status
+  name: kitchen-downlight-09
+- entity: binary_sensor.kitchen_downlight-10_status
+  name: kitchen-downlight-10
+- entity: binary_sensor.kitchen_downlight-11_status
+  name: kitchen-downlight-11
+- entity: binary_sensor.kitchen_downlight-12_status
+  name: kitchen-downlight-12
+- entity: binary_sensor.kitchen_fridge_status
+  name: kitchen-fridge
+- entity: binary_sensor.kitchen_hvac_status
+  name: kitchen-hvac
+- entity: binary_sensor.kitchen_nightlight-3_status
+  name: kitchen-nightlight-3
+- entity: binary_sensor.kitchen_nightlight-4_status
+  name: kitchen-nightlight-4
+- entity: binary_sensor.kitchen_shelly_1_status
+  name: kitchen-shelly-1
+- entity: binary_sensor.kitchen_shelly_2_status
+  name: kitchen-shelly-2
+- entity: binary_sensor.kitchen_shelly_3_status
+  name: kitchen-shelly-3
+- entity: binary_sensor.kitchen_vr-lighthouses_status
+  name: kitchen-vr-lighthouses
 show_header_toggle: false
 title: Kitchen
 type: entities

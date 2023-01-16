@@ -1,0 +1,9 @@
+---
+entities:
+- entity: binary_sensor.bathroom_shelly_1_status
+  name: bathroom-shelly-1
+- entity: binary_sensor.bathroom_shelly_2_status
+  name: bathroom-shelly-2
+show_header_toggle: false
+title: Bathroom
+type: entities

@@ -1,0 +1,11 @@
+---
+entities:
+- entity: binary_sensor.stairwell_shelly_1_status
+  name: stairwell-shelly-1
+- entity: binary_sensor.stairwell_shelly_2_status
+  name: stairwell-shelly-2
+- entity: binary_sensor.stairwell_shelly_3_status
+  name: stairwell-shelly-3
+show_header_toggle: false
+title: Stairwell
+type: entities

@@ -1,0 +1,7 @@
+---
+entities:
+- entity: binary_sensor.entrance_shelly_status
+  name: entrance-shelly
+show_header_toggle: false
+title: Entrance
+type: entities

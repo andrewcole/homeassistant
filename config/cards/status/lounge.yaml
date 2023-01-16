@@ -1,0 +1,27 @@
+---
+entities:
+- entity: binary_sensor.lounge_downlight-1_status
+  name: lounge-downlight-1
+- entity: binary_sensor.lounge_downlight-2_status
+  name: lounge-downlight-2
+- entity: binary_sensor.lounge_downlight-3_status
+  name: lounge-downlight-3
+- entity: binary_sensor.lounge_downlight-4_status
+  name: lounge-downlight-4
+- entity: binary_sensor.lounge_downlight-5_status
+  name: lounge-downlight-5
+- entity: binary_sensor.lounge_hvac_status
+  name: lounge-hvac
+- entity: binary_sensor.lounge_shelly_status
+  name: lounge-shelly
+- entity: binary_sensor.lounge_tablelight-1_status
+  name: lounge-tablelight-1
+- entity: binary_sensor.lounge_tablelight-2_status
+  name: lounge-tablelight-2
+- entity: binary_sensor.lounge_tablelight-3_status
+  name: lounge-tablelight-3
+- entity: binary_sensor.lounge_tablelight-4_status
+  name: lounge-tablelight-4
+show_header_toggle: false
+title: Lounge
+type: entities
