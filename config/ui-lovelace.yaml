@@ -1,0 +1,6 @@
+---
+title: Moonya
+views:
+- cards: !include_dir_list cards/status
+  path: status
+  title: Status
