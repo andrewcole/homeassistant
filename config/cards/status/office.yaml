@@ -20,5 +20,6 @@ entities:
   name: tablelight-1
 - entity: binary_sensor.office_tablelight_2_status
   name: tablelight-2
+hours_to_show: 1
 title: Office
 type: history-graph

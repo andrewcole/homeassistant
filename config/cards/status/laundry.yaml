@@ -10,5 +10,6 @@ entities:
   name: shelly-2
 - entity: binary_sensor.laundry_washer_status
   name: washer
+hours_to_show: 1
 title: Laundry
 type: history-graph

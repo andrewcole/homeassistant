@@ -10,5 +10,6 @@ entities:
   name: shelly-1
 - entity: binary_sensor.garage_shelly_2_status
   name: shelly-2
+hours_to_show: 1
 title: Garage
 type: history-graph

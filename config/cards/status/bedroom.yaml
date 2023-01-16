@@ -16,5 +16,6 @@ entities:
   name: tablelight-1
 - entity: binary_sensor.bedroom_tablelight_2_status
   name: tablelight-2
+hours_to_show: 1
 title: Bedroom
 type: history-graph

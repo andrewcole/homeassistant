@@ -44,5 +44,6 @@ entities:
   name: shelly-3
 - entity: binary_sensor.kitchen_vr_lighthouses_status
   name: vr-lighthouses
+hours_to_show: 1
 title: Kitchen
 type: history-graph

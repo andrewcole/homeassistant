@@ -2,5 +2,6 @@
 entities:
 - entity: binary_sensor.entrance_shelly_status
   name: shelly
+hours_to_show: 1
 title: Entrance
 type: history-graph

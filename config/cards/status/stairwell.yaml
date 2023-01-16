@@ -6,5 +6,6 @@ entities:
   name: shelly-2
 - entity: binary_sensor.stairwell_shelly_3_status
   name: shelly-3
+hours_to_show: 1
 title: Stairwell
 type: history-graph
