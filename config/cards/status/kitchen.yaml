@@ -1,6 +1,6 @@
 ---
 cards:
-- entity: binary_sensor.backyard_dht_status
+- entity: sensor.backyard_dht_status
   type: sensor
 columns: 1
 square: false
