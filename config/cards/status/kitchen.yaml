@@ -1,8 +1,7 @@
 ---
-cards:
-- entity: sensor.backyard_dht_status
-  type: sensor
-columns: 1
-square: false
-title: Backyard
-type: grid
+entities:
+- entity: binary_sensor.backyard_dht_status
+  name: backyard-dht
+show_header_toggle: false
+title: Kitchen
+type: entities
