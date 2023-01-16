@@ -1,0 +1,12 @@
+---
+cards:
+- entity: climate.office_hvac
+  type: thermostat
+- entities:
+  - sensor.office_humidity
+  - sensor.office_temperature
+  type: entities
+columns: 1
+square: false
+title: Climate
+type: grid
