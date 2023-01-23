@@ -1,13 +1,13 @@
 ---
 entities:
-- light.test_downlights_1
-- light.test_downlights_2
-- light.test_downlights_3
-- light.test_downlights_4
-- light.test_downlights_5
-- light.test_downlights_6
-- light.test_downlights_7
-- light.test_downlights_8
+- light.test_downlight_1
+- light.test_downlight_2
+- light.test_downlight_3
+- light.test_downlight_4
+- light.test_downlight_5
+- light.test_downlight_6
+- light.test_downlight_7
+- light.test_downlight_8
 name: Test Downlights
 platform: group
 unique_id: test_downlights
