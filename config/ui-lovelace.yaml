@@ -43,6 +43,9 @@ views:
 - cards: !include_dir_list cards/stairwell
   path: stairwell
   title: Stairwell
+- cards: !include_dir_list cards/test
+  path: test
+  title: Test
 - cards: !include_dir_list cards/status
   path: status
   title: Status

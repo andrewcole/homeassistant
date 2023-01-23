@@ -1,0 +1,13 @@
+---
+entities:
+- light.test_downlights_1
+- light.test_downlights_2
+- light.test_downlights_3
+- light.test_downlights_4
+- light.test_downlights_5
+- light.test_downlights_6
+- light.test_downlights_7
+- light.test_downlights_8
+name: Test Downlights
+platform: group
+unique_id: test_downlights
