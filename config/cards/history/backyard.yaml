@@ -2,6 +2,6 @@
 entities:
 - entity: binary_sensor.backyard_dht_status
   name: dht
-show_header_toggle: false
+hours_to_show: 1
 title: Backyard
-type: entities
+type: history-graph

@@ -22,6 +22,6 @@ entities:
   name: tablelight-3
 - entity: binary_sensor.lounge_tablelight_4_status
   name: tablelight-4
-show_header_toggle: false
+hours_to_show: 1
 title: Lounge
-type: entities
+type: history-graph

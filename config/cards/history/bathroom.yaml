@@ -4,6 +4,6 @@ entities:
   name: shelly-1
 - entity: binary_sensor.bathroom_shelly_2_status
   name: shelly-2
-show_header_toggle: false
+hours_to_show: 1
 title: Bathroom
-type: entities
+type: history-graph
