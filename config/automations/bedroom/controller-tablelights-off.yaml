@@ -1,0 +1,15 @@
+---
+action:
+- service: light.turn_off
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+alias: bedroom-controller-tablelight-off
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_1_double
+  platform: state
+  to: ""
