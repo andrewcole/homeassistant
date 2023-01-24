@@ -1,0 +1,13 @@
+---
+action:
+- service: climate.turn_off
+  target:
+    entity_id: climate.bedroom_hvac
+alias: bedroom-controller-hvac-off
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_5_single
+  platform: state
+  to: ""
