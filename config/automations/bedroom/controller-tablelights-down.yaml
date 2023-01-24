@@ -8,7 +8,7 @@ action:
     entity_id:
     - light.bedroom_tablelight_1
     - light.bedroom_tablelight_2
-alias: bedroom-controller-tablelight-table
+alias: bedroom-controller-tablelights-down
 mode: single
 trigger:
 - entity_id:
