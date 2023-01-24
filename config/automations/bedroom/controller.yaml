@@ -1,0 +1,134 @@
+---
+action:
+- data:
+    brightness_step_pct: 25
+    color_temp: 500
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+alias: bedroom-controller-tablelight-up
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_2_single
+  platform: state
+  to: ""
+---
+action:
+- data:
+    brightness_step_pct: -25
+    color_temp: 500
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+alias: bedroom-controller-tablelight-up
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_1_single
+  platform: state
+  to: ""
+---
+action:
+- data:
+    brightness_pct: 100
+    color_temp: 500
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+alias: bedroom-controller-tablelight-on
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_1_double
+  platform: state
+  to: ""
+---
+action:
+- service: light.turn_off
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+alias: bedroom-controller-tablelight-off
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_2_double
+  platform: state
+  to: ""
+---
+action:
+- data:
+    brightness_step_pct: 25
+    color_temp: 500
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_downlights
+alias: bedroom-controller-downlights-up
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_4_single
+  platform: state
+  to: ""
+---
+action:
+- data:
+    brightness_step_pct: -25
+    color_temp: 500
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_downlights
+alias: bedroom-controller-downlights-up
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_3_single
+  platform: state
+  to: ""
+---
+action:
+- data:
+    brightness_pct: 100
+    color_temp: 500
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_downlights
+alias: bedroom-controller-downlights-on
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_3_double
+  platform: state
+  to: ""
+---
+action:
+- service: light.turn_off
+  target:
+    entity_id:
+    - light.bedroom_downlights
+alias: bedroom-controller-downlights-off
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_4_double
+  platform: state
+  to: ""
