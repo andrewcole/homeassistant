@@ -1,7 +1,9 @@
 ---
 cards:
-- entity: binary_sensor.backyard_door_kitchen_contact
-  name: Backyard Door
+- entities:
+  - entity: binary_sensor.backyard_door_kitchen_contact
+    name: Backyard Door
+  type: entities
 columns: 1
 square: false
 title: Security

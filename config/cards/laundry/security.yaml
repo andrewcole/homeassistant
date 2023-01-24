@@ -1,7 +1,9 @@
 ---
 cards:
-- entity: binary_sensor.entrance_door_laundry_contact
-  name: Entrance Door
+- entities:
+  - entity: binary_sensor.entrance_door_laundry_contact
+    name: Entrance Door
+  type: entities
 columns: 1
 square: false
 title: Security

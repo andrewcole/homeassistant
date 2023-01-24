@@ -1,7 +1,15 @@
 ---
 cards:
-- entity: binary_sensor.office_door_stairwell_contact
-  name: Stairwell Door
+- entities:
+  - entity: binary_sensor.bathroom_door_stairwell_contact
+    name: Bathroom Door
+  - entity: binary_sensor.bedroom_door_stairwell_contact
+    name: Bedroom Door
+  - entity: binary_sensor.lounge_door_stairwell_contact
+    name: Lounge Door
+  - entity: binary_sensor.office_door_stairwell_contact
+    name: Office Door
+  type: entities
 columns: 1
 square: false
 title: Security

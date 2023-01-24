@@ -1,7 +1,9 @@
 ---
 cards:
-- entity: binary_sensor.bedroom_door_ensuite_contact
-  name: Bedroom Door
+- entities:
+  - entity: binary_sensor.bedroom_door_ensuite_contact
+    name: Bedroom Door
+  type: entities
 columns: 1
 square: false
 title: Security

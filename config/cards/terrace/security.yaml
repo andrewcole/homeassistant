@@ -1,9 +1,11 @@
 ---
 cards:
-- entity: binary_sensor.bedroom_door_terrace_contact
-  name: Bedroom Door
-- entity: binary_sensor.lounge_door_terrace_contact
-  name: Terrace Door
+- entities:
+  - entity: binary_sensor.bedroom_door_terrace_contact
+    name: Bedroom Door
+  - entity: binary_sensor.lounge_door_terrace_contact
+    name: Terrace Door
+  type: entities
 columns: 1
 square: false
 title: Security

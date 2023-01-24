@@ -1,11 +1,13 @@
 ---
 cards:
-- entity: binary_sensor.backyard_door_garage_contact
-  name: Backyard Door
-- entity: binary_sensor.driveway_door_garage_contact
-  name: Driveway Door
-- entity: binary_sensor.entrance_door_garage_contact
-  name: Entrance Door
+- entities:
+  - entity: binary_sensor.backyard_door_garage_contact
+    name: Backyard Door
+  - entity: binary_sensor.driveway_door_garage_contact
+    name: Driveway Door
+  - entity: binary_sensor.entrance_door_garage_contact
+    name: Entrance Door
+  type: entities
 columns: 1
 square: false
 title: Security
