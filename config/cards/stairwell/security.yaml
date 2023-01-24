@@ -1,0 +1,8 @@
+---
+cards:
+- entity: binary_sensor.office_door_stairwell_contact
+  name: Stairwell Door
+columns: 1
+square: false
+title: Security
+type: grid

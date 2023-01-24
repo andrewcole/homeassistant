@@ -1,0 +1,8 @@
+---
+cards:
+- entity: binary_sensor.entrance_door_laundry_contact
+  name: Entrance Door
+columns: 1
+square: false
+title: Security
+type: grid

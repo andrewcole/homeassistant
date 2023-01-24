@@ -1,0 +1,8 @@
+---
+cards:
+- entity: binary_sensor.bedroom_door_ensuite_contact
+  name: Bedroom Door
+columns: 1
+square: false
+title: Security
+type: grid

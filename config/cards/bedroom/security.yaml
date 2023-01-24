@@ -1,0 +1,12 @@
+---
+cards:
+- entity: binary_sensor.bedroom_door_ensuite_contact
+  name: Ensuite Door
+- entity: binary_sensor.bedroom_door_stairwell_contact
+  name: Stairwell Door
+- entity: binary_sensor.bedroom_door_terrace_contact
+  name: Terrace Door
+columns: 1
+square: false
+title: Security
+type: grid

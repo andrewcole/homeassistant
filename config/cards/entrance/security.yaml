@@ -1,0 +1,12 @@
+---
+cards:
+- entity: binary_sensor.driveway_door_entrance_contact
+  name: Driveway Door
+- entity: binary_sensor.entrance_door_garage_contact
+  name: Garage Door
+- entity: binary_sensor.entrance_door_laundry_contact
+  name: Laundry Door
+columns: 1
+square: false
+title: Security
+type: grid
