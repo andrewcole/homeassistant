@@ -1,0 +1,81 @@
+---
+action:
+- data:
+    entities: light.bedroom_tablelight_1 light.bedroom_tablelight_2
+    scene_id: bedroom-controller-hvac-on-denied
+  service: scene.create
+- data:
+    brightness_pct: 100
+    rgb_color:
+    - 255
+    - 0
+    - 0
+    transition: 0
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+- delay:
+    milliseconds: 500
+- data:
+    transition: 0
+  service: scene.turn_on
+  target:
+    entity_id: scene.bedroom-controller-hvac-on-denied
+- delay:
+    milliseconds: 500
+- data:
+    brightness_pct: 100
+    rgb_color:
+    - 255
+    - 0
+    - 0
+    transition: 0
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+- delay:
+    milliseconds: 500
+- data:
+    transition: 0
+  service: scene.turn_on
+  target:
+    entity_id: scene.bedroom-controller-hvac-on-denied
+- delay:
+    milliseconds: 500
+- data:
+    brightness_pct: 100
+    rgb_color:
+    - 255
+    - 0
+    - 0
+    transition: 0
+  service: light.turn_on
+  target:
+    entity_id:
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+- delay:
+    milliseconds: 500
+- data:
+    transition: 0
+  service: scene.turn_on
+  target:
+    entity_id: scene.bedroom-controller-hvac-on-denied
+- delay:
+    milliseconds: 500
+alias: bedroom-controller-hvac-on-denied
+condition:
+- condition: state
+  entity_id: binary_sensor.bedroom_door_terrace_contact
+  state: "on"
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_6_single
+  platform: state
+  to: ""
