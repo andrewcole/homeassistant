@@ -1,11 +1,9 @@
 ---
 cards:
-- entity: climate.bedroom_hvac
-  type: thermostat
 - entities:
-  - entity: sensor.bedroom_temperature
+  - entity: sensor.driveway_climate_temperature
     name: Temperature
-  - entity: sensor.bedroom_humidity
+  - entity: sensor.driveway_climate_humidity
     name: Humidity
   type: entities
 columns: 1

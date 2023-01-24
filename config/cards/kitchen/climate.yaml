@@ -2,9 +2,10 @@
 cards:
 - entity: climate.kitchen_hvac
   type: thermostat
-- entities:
-  - sensor.kitchen_humidity
-  - sensor.kitchen_temperature
+  - entity: sensor.kitchen_temperature
+    name: Temperature
+  - entity: sensor.kitchen_humidity
+    name: Humidity
   type: entities
 columns: 1
 square: false

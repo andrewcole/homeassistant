@@ -5,8 +5,10 @@ cards:
     name: Fan
     secondary_info: "{{states('sensor.laundry_fan_power')}} W"
     type: custom:secondaryinfo-entity-row
-  - entity: sensor.laundry_humidity
   - entity: sensor.laundry_temperature
+    name: Temperature
+  - entity: sensor.laundry_humidity
+    name: Humidity
   type: entities
 columns: 1
 square: false

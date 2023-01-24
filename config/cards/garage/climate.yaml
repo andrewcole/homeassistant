@@ -1,8 +1,10 @@
 ---
 cards:
 - entities:
-  - sensor.garage_humidity
-  - sensor.garage_temperature
+  - entity: sensor.garage_temperature
+    name: Temperature
+  - entity: sensor.garage_humidity
+    name: Humidity
   type: entities
 columns: 1
 square: false
