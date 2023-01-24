@@ -43,9 +43,6 @@ views:
 - cards: !include_dir_list cards/terrace
   path: terrace
   title: Terrace
-- cards: !include_dir_list cards/test
-  path: test
-  title: Test
 - cards: !include_dir_list cards/status
   path: status
   title: Status
