@@ -1,13 +1,9 @@
 ---
 action:
-- data:
-    brightness_pct: 100
-    color_temp: 500
-  service: light.turn_on
+- service: light.turn_on
   target:
     entity_id:
-    - light.bedroom_downlight_1
-    - light.bedroom_downlight_2
+    - light.bedroom_downlights
 alias: bedroom-controller-downlights-on
 mode: single
 trigger:
