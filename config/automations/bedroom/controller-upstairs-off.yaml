@@ -1,0 +1,31 @@
+---
+action:
+- service: light.turn_off
+  target:
+    entity_id:
+    - light.bedroom_downlights
+    - light.bedroom_tablelight_1
+    - light.bedroom_tablelight_2
+    - light.lounge_downlight_1
+    - light.lounge_downlight_2
+    - light.lounge_downlight_3
+    - light.lounge_downlight_4
+    - light.lounge_downlight_5
+    - light.lounge_tablelight_1
+    - light.lounge_tablelight_2
+    - light.office_downlight_1
+    - light.office_downlight_2
+    - light.office_downlight_3
+    - light.office_downlight_4
+    - light.office_tablelight_1
+    - light.office_tablelight_2
+    - light.ensuite_downlights
+    - light.bathroom_downlights
+alias: bedroom-controller-upstairs-off
+mode: single
+trigger:
+- entity_id:
+  - sensor.bedroom_controller_action
+  from: button_6_double
+  platform: state
+  to: ""
