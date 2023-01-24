@@ -5,8 +5,10 @@ cards:
     name: Fan
     secondary_info: "{{states('sensor.ensuite_fan_power')}} W"
     type: custom:secondaryinfo-entity-row
-  - entity: sensor.ensuite_humidity
-  - entity: sensor.ensuite_temperature
+  - entity: sensor.ensuite_climate_temperature
+    name: Temperature
+  - entity: sensor.ensuite_climate_humidity
+    name: Humidity
   type: entities
 columns: 1
 square: false

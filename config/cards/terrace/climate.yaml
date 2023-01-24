@@ -1,0 +1,12 @@
+---
+cards:
+- entities:
+  - entity: sensor.terrace_climate_temperature
+    name: Temperature
+  - entity: sensor.terrace_climate_humidity
+    name: Humidity
+  type: entities
+columns: 1
+square: false
+title: Climate
+type: grid

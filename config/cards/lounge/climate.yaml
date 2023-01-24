@@ -3,8 +3,10 @@ cards:
 - entity: climate.lounge_hvac
   type: thermostat
 - entities:
-  - sensor.lounge_humidity
-  - sensor.lounge_temperature
+  - entity: sensor.lounge_climate_temperature
+    name: Temperature
+  - entity: sensor.lounge_climate_humidity
+    name: Humidity
   type: entities
 columns: 1
 square: false
