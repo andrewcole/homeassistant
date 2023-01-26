@@ -1,0 +1,8 @@
+---
+cards:
+- entity: media_player.all_speakers
+  type: media-control
+columns: 1
+square: false
+title: Media Players
+type: grid

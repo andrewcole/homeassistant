@@ -1,0 +1,9 @@
+---
+cards:
+- entities:
+  - entity: switch.backyard_access_point
+  type: entities
+columns: 1
+square: false
+title: Access Points
+type: grid

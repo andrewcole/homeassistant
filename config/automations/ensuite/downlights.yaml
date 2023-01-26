@@ -1,0 +1,12 @@
+---
+action:
+- service: light.toggle
+  target:
+    entity_id: light.ensuite_downlights
+alias: Ensuite Downlights
+mode: single
+trigger:
+- entity_id: binary_sensor.ensuite_switch
+  from: "off"
+  platform: state
+  to: "on"

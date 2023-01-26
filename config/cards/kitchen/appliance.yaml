@@ -1,0 +1,13 @@
+---
+cards:
+- entities:
+  - entity: sensor.dishwasher_power
+  - entity: sensor.dishwasher_mode
+  - entity: sensor.fridge_power
+  - entity: sensor.fridge_mode
+  - entity: switch.vr_lighthouses
+  type: entities
+columns: 1
+square: false
+title: Appliances
+type: grid

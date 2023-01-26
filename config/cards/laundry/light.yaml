@@ -1,0 +1,34 @@
+---
+cards:
+- entities:
+  - entities:
+    - entity: light.laundry_downlight_1
+      name: Downlight 1
+      secondary_info: "{{states('sensor.laundry_downlight_1_power')}} W"
+      type: custom:secondaryinfo-entity-row
+    - entity: light.laundry_downlight_2
+      name: Downlight 2
+      secondary_info: "{{states('sensor.laundry_downlight_2_power')}} W"
+      type: custom:secondaryinfo-entity-row
+    head:
+      entity: light.laundry_downlights
+      name: Downlights
+      secondary_info: "{{states('sensor.laundry_downlights_power')}} W"
+      type: custom:secondaryinfo-entity-row
+    type: custom:fold-entity-row
+  - entities:
+    - entity: light.laundry_nightlight_1
+      name: Nightlight 1
+      secondary_info: "{{states('sensor.laundry_nightlight_1_power')}} W"
+      type: custom:secondaryinfo-entity-row
+    head:
+      entity: light.laundry_nightlights
+      name: Nightlights
+      secondary_info: "{{states('sensor.laundry_nightlights_power')}} W"
+      type: custom:secondaryinfo-entity-row
+    type: custom:fold-entity-row
+  type: entities
+columns: 1
+square: false
+title: Lights
+type: grid

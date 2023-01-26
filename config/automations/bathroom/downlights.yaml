@@ -1,0 +1,12 @@
+---
+action:
+- service: light.toggle
+  target:
+    entity_id: light.bathroom_downlights
+alias: Bathroom Downlights
+mode: single
+trigger:
+- entity_id: binary_sensor.bathroom_switch
+  from: "off"
+  platform: state
+  to: "on"

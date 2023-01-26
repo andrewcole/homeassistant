@@ -1,0 +1,33 @@
+---
+action:
+- service: light.toggle
+  target:
+    entity_id: light.lounge_tablelights
+alias: Lounge Tablelights
+condition:
+- condition: or
+  conditions:
+  - condition: state
+    entity_id: light.lounge_tablelights
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 2
+    state: "on"
+  - condition: state
+    entity_id: light.lounge_tablelights
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 2
+    state: "off"
+mode: single
+trigger:
+- entity_id: binary_sensor.lounge_switch_1
+  from: "off"
+  platform: state
+  to: "on"
+- entity_id: binary_sensor.lounge_switch_2
+  from: "off"
+  platform: state
+  to: "on"

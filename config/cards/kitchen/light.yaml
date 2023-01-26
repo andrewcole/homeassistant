@@ -77,6 +77,19 @@ cards:
       secondary_info: "{{states('sensor.kitchen_downlights_power')}} W"
       type: custom:secondaryinfo-entity-row
     type: custom:fold-entity-row
+  - entities:
+    - entity: light.kitchen_nightlight_1
+      name: Nightlight 1
+    - entity: light.kitchen_nightlight_2
+      name: Nightlight 2
+    - entity: light.kitchen_nightlight_3
+      name: Nightlight 3
+    - entity: light.kitchen_nightlight_4
+      name: Nightlight 4
+    head:
+      entity: light.kitchen_nightlights
+      name: Nightlights
+    type: custom:fold-entity-row
   type: entities
 columns: 1
 square: false

@@ -1,0 +1,20 @@
+---
+action:
+- service: light.toggle
+  target:
+    entity_id: light.stairwell_downlights
+alias: Stairwell Downlights
+mode: single
+trigger:
+- entity_id: binary_sensor.stairwell_switch_1
+  from: "off"
+  platform: state
+  to: "on"
+- entity_id: binary_sensor.stairwell_switch_2
+  from: "off"
+  platform: state
+  to: "on"
+- entity_id: binary_sensor.stairwell_switch_3
+  from: "off"
+  platform: state
+  to: "on"

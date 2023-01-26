@@ -1,0 +1,11 @@
+---
+platform: template
+sensors:
+  office_tablelights_power:
+    device_class: power
+    friendly_name: Office Tablelights Power
+    unit_of_measurement: W
+    value_template: >-
+      {{
+        (states('sensor.office_tablelights_1_power') | float(0.0)) +
+        (states('sensor.office_tablelights_2_power') | float(0.0)) }}

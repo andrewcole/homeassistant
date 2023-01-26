@@ -1,0 +1,53 @@
+---
+action:
+- service: homeassistant.turn_off
+  target:
+    entity_id: switch.laundry_fan
+alias: Laundry Fan Off
+condition:
+- condition: and
+  conditions:
+  - condition: not
+    conditions:
+      condition: state
+      entity_id: light.laundry_downlights
+      state: "on"
+  - condition: not
+    conditions:
+    - condition: state
+      entity_id: sensor.dryer_mode
+      state: active
+mode: single
+trigger:
+- event: start
+  platform: homeassistant
+- entity_id: switch.laundry_fan
+  for:
+    seconds: 1
+  platform: state
+  to: "on"
+- entity_id: light.laundry_downlights
+  for:
+    seconds: 15
+  platform: state
+  to: "off"
+- entity_id: sensor.dryer_mode
+  platform: state
+  to: idle
+  for:
+    seconds: 15
+- entity_id: sensor.dryer_mode
+  platform: state
+  to: unknown
+  for:
+    seconds: 15
+- entity_id: sensor.washing_machine_mode
+  platform: state
+  to: idle
+  for:
+    seconds: 15
+- entity_id: sensor.washing_machine_mode
+  platform: state
+  to: unknown
+  for:
+    seconds: 15
