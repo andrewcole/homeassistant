@@ -1,0 +1,15 @@
+---
+action:
+- data:
+    brightness_pct: 100
+    transition: 0
+  service: light.turn_on
+  target:
+    entity_id: light.garage_fluros
+alias: door-garage-open-garage-fluros-on
+mode: single
+trigger:
+- entity_id:
+  - binary_sensor.entrance_door_garage_contact
+  platform: state
+  to: "on"
