@@ -2,6 +2,7 @@
 entities:
 - entity: binary_sensor.backyard_dht_status
   name: dht
+  secondary_info: last-changed
 show_header_toggle: false
 title: Backyard
 type: entities

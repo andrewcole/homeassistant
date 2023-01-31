@@ -2,10 +2,13 @@
 entities:
 - entity: binary_sensor.stairwell_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.stairwell_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 - entity: binary_sensor.stairwell_shelly_3_status
   name: shelly-3
+  secondary_info: last-changed
 show_header_toggle: false
 title: Stairwell
 type: entities

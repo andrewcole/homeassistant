@@ -2,20 +2,28 @@
 entities:
 - entity: binary_sensor.bedroom_blanket_left_status
   name: blanket-left
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_blanket_right_status
   name: blanket-right
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_dht_status
   name: dht
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_hvac_status
   name: hvac
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_tablelight_1_status
   name: tablelight-1
+  secondary_info: last-changed
 - entity: binary_sensor.bedroom_tablelight_2_status
   name: tablelight-2
+  secondary_info: last-changed
 show_header_toggle: false
 title: Bedroom
 type: entities

@@ -2,14 +2,19 @@
 entities:
 - entity: binary_sensor.laundry_dht_status
   name: dht
+  secondary_info: last-changed
 - entity: binary_sensor.laundry_dryer_status
   name: dryer
+  secondary_info: last-changed
 - entity: binary_sensor.laundry_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.laundry_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 - entity: binary_sensor.laundry_washer_status
   name: washer
+  secondary_info: last-changed
 show_header_toggle: false
 title: Laundry
 type: entities

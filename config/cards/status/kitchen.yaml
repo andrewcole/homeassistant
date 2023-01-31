@@ -2,48 +2,70 @@
 entities:
 - entity: binary_sensor.kitchen_dht_status
   name: dht
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_dishwasher_status
   name: dishwasher
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_01_status
   name: downlight-01
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_02_status
   name: downlight-02
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_03_status
   name: downlight-03
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_04_status
   name: downlight-04
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_05_status
   name: downlight-05
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_06_status
   name: downlight-06
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_07_status
   name: downlight-07
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_08_status
   name: downlight-08
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_09_status
   name: downlight-09
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_10_status
   name: downlight-10
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_11_status
   name: downlight-11
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_downlight_12_status
   name: downlight-12
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_fridge_status
   name: fridge
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_hvac_status
   name: hvac
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_nightlight_3_status
   name: nightlight-3
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_nightlight_4_status
   name: nightlight-4
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_shelly_3_status
   name: shelly-3
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_vr_lighthouses_status
   name: vr-lighthouses
+  secondary_info: last-changed
 show_header_toggle: false
 title: Kitchen
 type: entities

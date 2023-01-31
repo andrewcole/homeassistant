@@ -2,24 +2,34 @@
 entities:
 - entity: binary_sensor.office_downlight_1_status
   name: downlight-1
+  secondary_info: last-changed
 - entity: binary_sensor.office_downlight_2_status
   name: downlight-2
+  secondary_info: last-changed
 - entity: binary_sensor.office_downlight_3_status
   name: downlight-3
+  secondary_info: last-changed
 - entity: binary_sensor.office_downlight_4_status
   name: downlight-4
+  secondary_info: last-changed
 - entity: binary_sensor.office_hvac_status
   name: hvac
+  secondary_info: last-changed
 - entity: binary_sensor.office_rack_status
   name: rack
+  secondary_info: last-changed
 - entity: binary_sensor.office_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.office_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 - entity: binary_sensor.office_tablelight_1_status
   name: tablelight-1
+  secondary_info: last-changed
 - entity: binary_sensor.office_tablelight_2_status
   name: tablelight-2
+  secondary_info: last-changed
 show_header_toggle: false
 title: Office
 type: entities

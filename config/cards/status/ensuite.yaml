@@ -2,8 +2,10 @@
 entities:
 - entity: binary_sensor.ensuite_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.ensuite_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 show_header_toggle: false
 title: Ensuite
 type: entities

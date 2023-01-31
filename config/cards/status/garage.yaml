@@ -2,14 +2,19 @@
 entities:
 - entity: binary_sensor.garage_dht_status
   name: dht
+  secondary_info: last-changed
 - entity: binary_sensor.garage_network_rack_status
   name: network-rack
+  secondary_info: last-changed
 - entity: binary_sensor.garage_server_rack_status
   name: server-rack
+  secondary_info: last-changed
 - entity: binary_sensor.garage_shelly_1_status
   name: shelly-1
+  secondary_info: last-changed
 - entity: binary_sensor.garage_shelly_2_status
   name: shelly-2
+  secondary_info: last-changed
 show_header_toggle: false
 title: Garage
 type: entities
