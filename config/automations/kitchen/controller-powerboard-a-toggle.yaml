@@ -1,0 +1,13 @@
+---
+action:
+- service: switch.toggle
+  target:
+    entity_id: switch.kitchen_powerboard_a
+alias: kitchen-controller-powerboard-a-toggle
+mode: single
+trigger:
+- entity_id:
+  - sensor.kitchen_controller_action
+  from: button_1_single
+  platform: state
+  to: ""

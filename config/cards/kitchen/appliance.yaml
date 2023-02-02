@@ -6,6 +6,10 @@ cards:
   - entity: sensor.fridge_power
   - entity: sensor.fridge_mode
   - entity: switch.vr_lighthouses
+  - entity: switch.kitchen_powerboard_a
+  - entity: switch.kitchen_powerboard_b
+  - entity: switch.kitchen_powerboard_c
+  - entity: switch.kitchen_powerboard_d
   type: entities
 columns: 1
 square: false

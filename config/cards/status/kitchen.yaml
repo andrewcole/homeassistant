@@ -54,6 +54,9 @@ entities:
 - entity: binary_sensor.kitchen_nightlight_4_status
   name: nightlight-4
   secondary_info: last-changed
+- entity: binary_sensor.kitchen_powerboard_status
+  name: powerboard
+  secondary_info: last-changed
 - entity: binary_sensor.kitchen_shelly_1_status
   name: shelly-1
   secondary_info: last-changed

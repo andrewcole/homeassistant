@@ -36,6 +36,8 @@ entities:
   name: nightlight-3
 - entity: binary_sensor.kitchen_nightlight_4_status
   name: nightlight-4
+- entity: binary_sensor.kitchen_powerboard_status
+  name: powerboard
 - entity: binary_sensor.kitchen_shelly_1_status
   name: shelly-1
 - entity: binary_sensor.kitchen_shelly_2_status

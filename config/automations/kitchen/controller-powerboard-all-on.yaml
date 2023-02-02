@@ -1,0 +1,17 @@
+---
+action:
+- service: switch.turn_on
+  target:
+    entity_id:
+    - switch.kitchen_powerboard_a
+    - switch.kitchen_powerboard_b
+    - switch.kitchen_powerboard_c
+    - switch.kitchen_powerboard_d
+alias: kitchen-controller-powerboard-all-on
+mode: single
+trigger:
+- entity_id:
+  - sensor.kitchen_controller_action
+  from: button_6_single
+  platform: state
+  to: ""
