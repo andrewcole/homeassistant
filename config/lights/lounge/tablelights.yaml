@@ -1,9 +1,0 @@
----
-entities:
-- light.lounge_tablelight_1
-- light.lounge_tablelight_2
-- light.lounge_tablelight_3
-- light.lounge_tablelight_4
-name: Lounge Tablelights
-platform: group
-unique_id: lounge_tablelights
