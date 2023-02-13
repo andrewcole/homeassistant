@@ -1,0 +1,10 @@
+---
+platform: template
+sensors:
+  bathroom_downlights_power:
+    device_class: power
+    friendly_name: Bathroom Downlights Power
+    unit_of_measurement: W
+    value_template: >-
+      {{
+        (states('sensor.bathroom_downlight_1_power') | float(0.0)) }}

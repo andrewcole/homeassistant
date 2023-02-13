@@ -1,6 +1,0 @@
----
-entities:
-- light.bathroom_downlights
-name: Bathroom Downlight 1
-platform: group
-unique_id: bathroom_downlight_1
